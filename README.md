@@ -1,7 +1,10 @@
-# np_plt_pd_abs_basics
-Daily used Numpy Matplotlib Pandas SHORT references
+# A short reference for Numpy, Matplotlib, Pandas
 
-The absolute basics.
+
+
+## NumPy
+https://numpy.org/doc/stable/user/quickstart.html
+
 
 ## Matplotlib
 
@@ -13,7 +16,7 @@ Shortest example:
 import matplotlib.pyplot as plt  
 
 fig, ax = plt.subplots() 
-ax.plot(a,b)
+ax.plot(a,b) # a and b are NumPy arrays
 ```
 
 - Figure
@@ -40,3 +43,21 @@ ax.plot(a,b)
 - Inputs to plotting functions: Convert everything (e.g. pandas.DataFrame) to `numpy.array` objects prior to plotting.
 
 - Prefer the OO-style!
+
+
+## Pandas
+
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
+
+- Two primary data structures: 
+  - Series (1-dim); container of scalar
+  - DataFrame(2-dim); container of Series
+
+- Built on top of NumPy
+
+- Read and write tabular data
+
+- How to Select a subset of a DataFrame
+  - slect specific column
+  - filter specific rows
+  - select specific rows *and* columns
