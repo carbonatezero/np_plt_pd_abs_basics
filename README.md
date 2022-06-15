@@ -1,4 +1,4 @@
-# A short reference for Numpy, Matplotlib, Pandas
+# A short reference for Numpy, Matplotlib and Pandas
 
 
 
