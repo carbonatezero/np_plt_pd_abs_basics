@@ -37,4 +37,6 @@ ax.plot(a,b)
       return out
 ```
 
+- Inputs to plotting functions: Convert everything (e.g. pandas.DataFrame) to `numpy.array` objects prior to plotting.
+
 - Prefer the OO-style!
