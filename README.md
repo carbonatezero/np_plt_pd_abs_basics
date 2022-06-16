@@ -5,6 +5,7 @@
 ## NumPy
 https://numpy.org/doc/stable/user/quickstart.html
 
+Check the Jupyter notebook: https://github.com/carbonatezero/np_plt_pd_abs_basics/blob/main/quick_starts_numpy.ipynb
 
 ## Matplotlib
 
