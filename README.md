@@ -60,5 +60,10 @@ https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
 
 - How to Select a subset of a DataFrame
   - slect specific column
+    - `df["Age"]` (returns a "Series")
+    - `df[["Age"]]` (returns a "DataFrame")
   - filter specific rows
+    - `df[df["Age"]>35]` (`df["Age"]>35` returns a pd Series of boolean values)
   - select specific rows *and* columns
+    - `df.loc[df["Age"]>35, "Name"]`
+    - `df.iloc[9:25, 2:5]`
