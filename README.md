@@ -50,15 +50,15 @@ ax.plot(a,b) # a and b are NumPy arrays
 
 https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
 
-- Two primary data structures: 
+### Two primary data structures: 
   - Series (1-dim); container of scalar
   - DataFrame(2-dim); container of Series
 
-- Built on top of NumPy
+### Built on top of NumPy
 
-- Read and write tabular data
+### Read and write tabular data
 
-- How to Select a subset of a DataFrame
+### How to Select a subset of a DataFrame
   - slect specific column
     - `df["Age"]` (returns a "Series")
     - `df[["Age"]]` (returns a "DataFrame")
